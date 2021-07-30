@@ -3,7 +3,7 @@ def text_split(x,y=79):
     n1 = x
     n = int(y)
     return [n1[i:i+n] for i in range(0, len(n1), n)] 
-img = Image.open('111.png')
+img = Image.open(str(input()))
 res=''
 (size_x,size_y)=img.size
 print(f'Размер изображения: {size_x}X{size_y}')
